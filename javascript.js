@@ -1681,12 +1681,12 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {sessionStorage.setItem("noPreloader", "true");}, 4900); 	
 })
 
-let noPreloader = sessionStorage.getItem("noPreloader");
+// let noPreloader = sessionStorage.getItem("noPreloader");
 
-if(noPreloader = true){
-	document.getElementById("preloader").style.display = "none";
-	console.log("noPreloader works");
-}
+// if(noPreloader = true){
+// 	document.getElementById("preloader").style.display = "none";
+// 	console.log("noPreloader works");
+// }
 
 // ^ this is for if pics ARE loaded
 

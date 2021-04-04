@@ -125,12 +125,12 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url(img/preloader.jpg);
 }
 
 .loadingbar{
-
-	background-color:#7B7876
-	border-radius: 20px;
+/*	background-color:#7B7876
+*/	border-radius: 20px;
 	z-index: 32;
 /*	width: 51.5%;*/
 	width: 0%;
@@ -143,7 +143,6 @@ footer{
 
 .loadingbardone{
 	background: linear-gradient(to left, #1BB96B , #167D58);
-	box-shadow: 0 3px 3px -5px #1BB96B, 0 2px 5px #167D58;
 	border-radius: 20px;
 	height: 1.75em;
 	transition: 1s ease;
