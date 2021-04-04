@@ -1,0 +1,1793 @@
+div li{
+	list-style-type: none;
+}
+
+.wrapper{
+	width: 100% absolute;
+}
+.flex-container{
+	display: flex;
+    flex-flow: row;
+	flex-wrap: wrap;
+    max-width: 100%;
+}
+
+li{
+	display: inline-block;
+	white-space: nowrap;
+	}
+
+.plot{
+    position: relative;
+    padding: 0px 0px;
+    text-align: center;
+    top: 5%;
+}
+ 
+.characters{
+    position: relative;
+    padding: 0px 0px;
+    text-align: center;
+    top: 15em;
+}
+
+
+#maxus-plot div:hover img{
+    animation: fadeout 1s both linear;
+}
+
+#hydra-plot div:hover img{
+    animation: fadeout 1s both linear;
+}
+
+#alis-plot div:hover img{
+    animation: fadeout 1s both linear;
+}
+
+#mouse-plot div:hover img{
+    animation: fadeout 1s both linear;
+}
+
+#mal-plot div:hover img{
+    animation: fadeout 1s both linear;
+
+}
+
+@keyframes fadeout{
+    from{opacity: 100%;}
+    to{opacity: 0%;}
+}
+
+
+
+div #plot-summaries{
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+ }
+
+.Plot-pic{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    top: 2em;
+    z-index: 2;
+}
+
+/*The Below section was created with the assistance of Vadim*/
+.Plot-pic li div{
+    position: relative; /*To make p tag absolute in reference to div, must position div*/
+}
+
+.Plot-pic li div p{
+    position: absolute;
+    top: 0;
+    white-space: normal; /*Overriding inherited white-space: nowrap*/
+    z-index: 1;
+    word-wrap: break-word;
+    margin-top: 0;
+    padding-top:0; 
+    padding: 1.5em;
+}
+
+.Plot-pic li div img {
+    position: relative; /*Only positioned elements can use zindex.*/
+    z-index: 2; /*2 > 1. So img will be on top of p.*/
+}
+
+.Plot-pic li{
+    padding: 0.1em; /*(1670 min width padding = 3 em)*/
+    text-align: left;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+/*Vadim assisted up to this section*/
+
+
+/*The below worked BUT it does not adapt to other screensizes :( */
+/*p{
+    position: absolute;
+    justify-content:center;
+    flex-wrap: wrap;
+    display: flex;
+    color: white;
+}*/
+
+
+
+#maxus-sum{
+    position:absolute;
+    font-size: 0.9em;
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 4%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+
+
+
+}
+ #hydra-sum{
+    position:absolute;
+    font-size: 0.9em;
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 23.5%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+ #mouse-sum{
+    position:absolute;
+    font-size: 0.9em;
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 42.5%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+ #alis-sum{
+    position:absolute;
+    font-size: 0.9em;
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 61%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+ #mal-sum{
+    position:absolute;
+    font-size: 0.9em;
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 80%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;
+    font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#maxus-sum-jp{
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 4%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    line-height: 2;
+    color: white;
+
+}
+ #hydra-sum-jp{
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 23.5%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    line-height: 2;
+    color: white;
+
+}
+ #mouse-sum-jp{
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 42.5%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    line-height: 2;
+    color: white;
+
+}
+ #alis-sum-jp{
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 61%;
+    top: 40.5em*/;
+    display:flex;
+    flex-wrap:wrap;
+    line-height: 2;
+    color: white;
+
+}
+ #mal-sum-jp{
+    width: 230px;
+    height: 300px;
+    padding-top:5%;
+/*    left: 80%;
+    top: 40.5em;*/
+    display:flex;
+    flex-wrap:wrap;
+    line-height: 2;
+    color: white;
+
+}
+
+
+#maxus-eng{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+/*    left: 5%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+
+}
+#hydra-eng{
+    font-family: 'Orbitron', sans-serif;
+    color: white;    
+ /*   left: 25%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+
+}
+#mouse-eng{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+ /*   left: 44%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+
+}
+#alis-eng{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+/*    left: 63.5%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+
+}
+#mal-eng{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+/*    left: 83%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+#maxus-jp{
+    color: white;
+/*    left: 5%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;    
+
+}
+#hydra-jp{
+    color: white;    
+/*    left: 25%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;   
+
+}
+#mouse-jp{
+    color: white;
+/*    left: 44%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;    
+
+}
+#alis-jp{
+    color: white;
+/*    left: 63.5%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;    
+
+}
+#mal-jp{
+    color: white;
+/*    left: 83%;
+    top: 67em;*/
+    display:flex;
+    flex-wrap:wrap;
+    color:black;   
+}
+
+#hexagon{
+    position: relative;
+}
+
+.hexagon{
+    text-align: center;
+}
+
+#Maxus{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Sally{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Jolly{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Kale{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Ziah{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Hydra{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Sai{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Aeru{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Ransom{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Kobe{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Spydr{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Kali{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Alis{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Cheshire{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Dormouse{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Boshi{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Mouse{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Chestil{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Cody{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Bank{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Mal{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Hockt{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Lexo{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Badely{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Gillian{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Inko{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Musashi{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Codec{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Melody{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Bones{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Cheesecake{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+#Nori-Shiro{
+    position: relative;
+    top: 20em;
+    z-index: 3;
+}
+
+.hexagon:hover{
+    cursor: pointer;
+}
+
+#Maxus:hover{
+    content: url(img/maxus_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Sally:hover{
+    content: url(img/sally_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Jolly:hover{
+    content: url(img/jolly_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Kale:hover{
+    content: url(img/kale_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Ziah:hover{
+    content: url(img/ziah_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Hydra:hover{
+    content: url(img/hydra_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Sai:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Aeru:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Ransom:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Kobe:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Spydr:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Kali:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+
+#Mouse:hover{
+    content: url(img/mouse_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Chestil:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Cody:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Bank:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+
+#Alis:hover{
+    content: url(img/alis_avatar_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Cheshire:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Dormouse:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Boshi:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+
+#Mal:hover{
+    content: url(img/hexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Hockt:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Lexo:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Badely:hover{
+    content: url(img/silverhexagon_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Gillian:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Inko:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Musashi:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Codec:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Melody:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Bones:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Cheesecake:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+#Nori-Shiro:hover{
+    content: url(img/hexagon_other_chara_hover.gif);
+    width: 245px;
+    height: 260px;
+}
+
+.Plot-pic:hover{
+    cursor: pointer;    
+}
+
+
+ /*This section was created with Vadim's assistance and advice*/
+ 
+.banner{
+	position:relative;
+	top:0%;
+    animation-fill-mode: forwards;
+    animation:banner;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#maxus_banner{
+	position: absolute;
+    transform: translateX(100vw);
+    z-index: 5;
+    animation-delay: 0s;
+}
+#hydra_banner{
+	position: absolute;
+    transform: translateX(100vw);
+    z-index: 4;	
+    animation-delay: -24s;
+}
+#alis_banner{
+	position: absolute;
+    transform: translateX(100vw);
+    z-index: 3;	
+    animation-delay: -18s;
+}
+#mouse_banner{
+	position: absolute;
+    transform: translateX(100vw);
+    z-index: 2;	
+    animation-delay: -12s;
+}
+#mal_banner{
+	position: absolute;
+    transform: translateX(100vw);
+    z-index: 1;	
+    animation-delay: -6s;
+}
+
+@keyframes banner{
+    0%{transform: translateX(0vw);}
+    10%{transform: translateX(0vw);}
+    20%{transform: translateX(-100vw);}
+    30%{transform: translateX(-100vw);}
+    30.001%{transform: translateX(100vw);}
+    90%{transform: translateX(100vw);}
+    100%{transform: translateX(0vw);}
+}
+/*Vadim advised up to here*/
+
+.close{
+    position: absolute;
+    display: block;
+    right: 5%;
+    top: 2%;
+    font-size: 90px;
+    color: #21D8A8;
+    z-index: 2;
+
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.panel{
+    position: absolute;
+    left: 15%;
+    top: 25em;
+    align-content: center;
+}
+
+/*.panel span{
+    position: absolute;
+    display: block;
+    right: 5%;
+    top: 2%;
+    font-size: 90px;
+    opacity: 50%;
+    color: #21D8A8;
+}*/
+
+#Maxus-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 200em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Sally-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Jolly-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Kale-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Ziah-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Hydra-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 200em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Sai-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Aeru-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Ransom-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Kobe-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Spydr-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Kali-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Alis-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 200em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Cheshire-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Dormouse-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Boshi-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Mouse-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 200em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Chestil-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Cody-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Bank-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Mal-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 200em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Hockt-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Lexo-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Badely-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Gillian-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Inko-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Musashi-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Codec-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Melody-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Bones-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Cheesecake-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+#Nori-Shiro-panel{
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 100em;
+    opacity: 0;
+    width: 70%;
+    z-index:0;
+    background-image: url('img/panel.png');
+}
+
+
+.nameInPanel{
+    position: absolute;
+    top: 2em;
+    left: 7%;
+    font-size: 2em;
+}
+
+.characterinfo{
+    position: relative;
+    text-align: left;
+    left: 5%;
+    color:white;
+    max-width: 90%;
+    white-space: normal;
+    font-family: 'Antic Slab', serif;
+    font-size: 1em;
+}
+
+#Maxus-info{
+    top: 14em;
+    position: relative;
+}
+
+#Sally-info{
+    top: 17em;
+    position: relative;
+}
+
+#Jolly-info{
+    top: 17em;
+    position: relative;
+}
+
+#Kale-info{
+    top: 17em;
+    position: relative;
+}
+
+#Ziah-info{
+    top: 17em;
+    position: relative;
+}
+
+#Hydra-info{
+    top: 17em;
+    position: relative;
+}
+
+#Sai-info{
+    top: 17em;
+    position: relative;
+}
+
+#Aeru-info{
+    top: 17em;
+    position: relative;
+}
+
+#Ransom-info{
+    top: 17em;
+    position: relative;
+}
+
+#Kobe-info{
+    top: 17em;
+    position: relative;
+}
+
+#Spydr-info{
+    top: 17em;
+    position: relative;
+}
+
+#Kali-info{
+    top: 17em;
+    position: relative;
+}
+
+#Alis-info{
+    top: 17em;
+    position: relative;
+}
+
+#Cheshire-info{
+    top: 17em;
+    position: relative;
+}
+
+#Dormouse-info{
+    top: 17em;
+    position: relative;
+}
+
+#Boshi-info{
+    top: 17em;
+    position: relative;
+}
+
+#Mouse-info{
+    top: 17em;
+    position: relative;
+}
+
+#Chestil-info{
+    top: 17em;
+    position: relative;
+}
+
+#Cody-info{
+    top: 17em;
+    position: relative;
+}
+
+#Bank-info{
+    top: 17em;
+    position: relative;
+}
+
+#Mal-info{
+    top: 17em;
+    position: relative;
+}
+
+#Hockt-info{
+    top: 17em;
+    position: relative;
+}
+
+#Lexo-info{
+    top: 17em;
+    position: relative;
+}
+
+#Badely-info{
+    top: 17em;
+    position: relative;
+}
+
+#Gillian-info{
+    top: 17em;
+    position: relative;
+}
+
+#Inko-info{
+    top: 17em;
+    position: relative;
+}
+
+#Musashi-info{
+    top: 17em;
+    position: relative;
+}
+
+#Codec-info{
+    top: 17em;
+    position: relative;
+}
+
+#Melody-info{
+    top: 17em;
+    position: relative;
+}
+
+#Bones-info{
+    top: 17em;
+    position: relative;
+}
+
+#Cheesecake-info{
+    top: 17em;
+    position: relative;
+}
+
+#Nori-Shiro-info{
+    top: 17em;
+    position: relative;
+}
+
+
+.setting{
+    position: relative;
+    padding: 0px 0px;
+    text-align: center;
+    top: 32em;
+    color: white;
+}
+
+.setting_hex{
+    text-align: center;
+    position: relative;
+    top: 30em;
+}
+
+#atlantis:hover{
+    content: url(img/hex_setting_hover.gif);
+    width: 660px;
+    height: 675px;
+    cursor: pointer;
+
+}
+
+#zionix:hover{
+    content: url(img/hex_setting_hover.gif);
+    width: 660px;
+    height: 675px;
+    cursor: pointer;
+}
+
+
+#atlantis_panel{
+    position: absolute;
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 60em;
+    opacity: 0;
+    width: 91%;
+    top: 3em;
+    background-image: url('img/setting.png');
+    z-index: -1;
+}
+
+#zionix_panel{
+    position: absolute;
+    display: block;
+    margin: 0%;
+    padding: 0px;
+    height: 60em;
+    opacity: 0;
+    width: 91%;
+    background-image: url('img/setting.png');
+    top: 3em;
+    z-index: -1;
+}
+
+.setting_panel{
+    position: absolute;
+    left: 5%;
+    top: 80em;
+    align-content: center;
+    width: 90%
+}
+
+.settingnameInPanel{
+    position: absolute;
+    top: 2em;
+    left: 3%;
+}
+
+.atlantis {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    top: 7em;
+    left: 0;
+}
+
+.zionix{
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    top: 7em;
+    left: 0;
+}
+
+.centering_needed{
+    text-align: center; 
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    word-wrap: normal;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: normal;
+    width: 100%;
+    justify-content: center;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: normal;
+    width: 100%;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 90%;
+}
+
+.atlantis_setting_pix{
+    width: 100%;
+    position: relative;
+    top: 10em;
+    left: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#jollyland{
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#quarries{
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#exodus{
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#fortress{
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#jollyland:hover{
+    content: url(img/settings/jollyland_hover.png);
+    width: 280px;
+}
+
+#quarries:hover{
+    content: url(img/settings/quarries_hover.png);
+    width: 280px;
+}
+
+#exodus:hover{
+    content: url(img/settings/exodus_hover.png);
+    width: 280px;
+}
+
+#fortress:hover{
+    content: url(img/settings/fortress_hover.png);
+    width: 280px;
+}
+
+.zionix_setting_pix{
+    width: 100%;
+    position: relative;
+    top: 10em;
+    left: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#layer7{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer6{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer5{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer4{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer3{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer2{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer1{
+    padding-top: 2.5em;
+    padding-left: 1em;
+    opacity: 1;
+}
+
+#layer7:hover{
+    content: url(img/settings/zionix_layer7_hover.png);
+    width: 600px;
+}
+
+#layer6:hover{
+    content: url(img/settings/zionix_layer6_hover.png);
+    width: 295px;
+}
+
+#layer5:hover{
+    content: url(img/settings/zionix_layer5_hover.png);
+    width: 295px;
+}
+
+#layer4:hover{
+    content: url(img/settings/zionix_layer4_hover.png);
+    width: 295px;
+}
+
+#layer3:hover{
+    content: url(img/settings/zionix_layer3_hover.png);
+    width: 295px;
+}
+
+#layer2:hover{
+    content: url(img/settings/zionix_layer2_hover.png);
+    width: 295px;
+}
+
+#layer1:hover{
+    content: url(img/settings/zionix_layer1_hover.png);
+    width: 295px;
+}
+
+#jollyland_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    align-items: center;
+}
+
+#quarries_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    align-items: center;
+
+}
+
+#exodus_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    align-items: center;
+
+}
+
+#fortress_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    align-items: center;
+
+}
+
+#layer7_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer6_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer5_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer4_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer3_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer2_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+#layer1_setting{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
+    left: 2em;
+}
+
+
+
+.setting_info{
+    z-index: 3;
+    color: white;
+    white-space: normal;
+    text-align: left;
+    width: 90%;
+    left: 3em;
+}   
+
+.setting_img{
+    float: left; 
+    width: 300px; 
+    height: 300px; 
+    margin: 0px; 
+    padding-right: 2em; 
+    padding-bottom: 2em; 
+}
+
+.setting_name_in_panel{
+    position: absolute;
+    top: -4.5em;
+    left: 3%;
+    opacity: 1;
+}
+
+.setting_back{
+    position: absolute;
+    display: block;
+    right: 6em;     
+    top: -3.5em;
+    font-size: 30px;
+    color: #21D8A8;
+    z-index: 1;
+    opacity: 0;
+}
+
+.setting_back:hover{
+    cursor: pointer;
+}
+
+.atlantis_setting:hover{
+    cursor: pointer;
+}
+.zionix_setting:hover{
+    cursor: pointer;
+}
+
+.atlantis_overview{
+    position: absolute;
+    display: block;
+    right: 12em;     
+    top: 2.5em;
+    font-size: 30px;
+    color: #21D8A8;
+    z-index: 1;
+    opacity: 1;
+}
+
+.atlantis_overview_back{
+    position: absolute;
+    display: block;
+    right: 4.7em;     
+    top: 1.85em;
+    font-size: 30px;
+    color: #21D8A8;
+    z-index: 1;
+    opacity: 0;
+}
+
+.zionix_overview{
+    position: absolute;
+    display: block;
+    right: 12em;     
+    top: 2.5em;
+    font-size: 30px;
+    color: #21D8A8;
+    z-index: 1;
+    opacity: 1;
+}
+
+.zionix_overview_back{
+    position: absolute;
+    display: block;
+    right: 4.7em;     
+    top: 1.85em;
+    font-size: 30px;
+    color: #21D8A8;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.atlantis_overview:hover{
+    cursor: pointer;
+}
+
+.atlantis_overview_back:hover{
+    cursor: pointer;
+}
+
+.zionix_overview:hover{
+    cursor: pointer;
+}
+
+.zionix_overview_back:hover{
+    cursor: pointer;
+}
+
+.overview_text{
+    position: relative;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+#atlantis_overview_text{
+    position: absolute;
+    width: 90%;
+    top: 10em;
+    opacity: 0;
+    z-index: -1;
+    white-space: normal;
+    left: 5em;
+}
+
+#zionix_overview_text{
+    position: absolute;
+    width: 90%;
+    top: 10em;
+    opacity: 0;
+    z-index: -1;
+    white-space: normal;
+    left: 5em;
+}
+
+
+/*
+@media screen and (min-device-width: 1400px) and (max-device-width: 1940px) and (-webkit-min-device-pixel-ratio: 1) { 
+    .hexagon{
+        top: 35em;
+    }
+}
+
+<---Well this doesnt do anything so gonna try the javascript--->
+
+*/
+
