@@ -1663,7 +1663,7 @@ zionix_overview_back.onclick = function(){
     setTimeout(() => {document.getElementById("loadingbar").style.width = "35%";}, 700);
 
 });
-// // ^ This is if pics and stuff did NOT load
+// // ^ This is if pics and stuff did NOT load yet.
 
 window.addEventListener('load', (event) => {
     console.log("preloaderworks");
@@ -1678,8 +1678,13 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {document.getElementById("preloader").style.opacity = "0.2";}, 4700);
     setTimeout(() => {document.getElementById("preloader").style.opacity = "0.1";}, 4800);
     setTimeout(() => {document.getElementById("preloader").style.display = "none";}, 4900);
-    setTimeout(() => {sessionStorage.setItem("noPreloader", "true");}, 4900); 	
+    setTimeout(() => {sessionStorage.setItem("noPreloader", "true"); console.log("no preloader Session Storage activated")}, 4900); 	
 })
+
+if (sessionStorage.noPreloader == "true"){
+	document.getElementById("preloader").style.display = "none";
+ 	console.log("noPreloader works");
+}
 
 // let noPreloader = sessionStorage.getItem("noPreloader");
 

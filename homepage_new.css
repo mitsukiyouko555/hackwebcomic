@@ -1415,7 +1415,7 @@ div #plot-summaries{
     width: 100%;
     position: relative;
     top: 10em;
-    left: 2.5em;
+    left: -1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1467,7 +1467,7 @@ div #plot-summaries{
     width: 100%;
     position: relative;
     top: 10em;
-    left: 1em;
+    left: -1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
