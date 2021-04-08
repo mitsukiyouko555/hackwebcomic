@@ -144,7 +144,7 @@ div #plot-summaries{
     width: 230px;
     height: 300px;
     padding-top:5%;
-/*    left: 23.5%;
+/*    left: 53.5%;
     top: 40.5em;*/
     display:flex;
     flex-wrap:wrap;
@@ -215,7 +215,7 @@ div #plot-summaries{
     width: 230px;
     height: 300px;
     padding-top:5%;
-/*    left: 23.5%;
+/*    left: 53.5%;
     top: 40.5em;*/
     display:flex;
     flex-wrap:wrap;
@@ -273,7 +273,7 @@ div #plot-summaries{
 #hydra-eng{
     font-family: 'Orbitron', sans-serif;
     color: white;    
- /*   left: 25%;
+ /*   left: 55%;
     top: 67em;*/
     display:flex;
     flex-wrap:wrap;
@@ -318,7 +318,7 @@ div #plot-summaries{
 }
 #hydra-jp{
     color: white;    
-/*    left: 25%;
+/*    left: 55%;
     top: 67em;*/
     display:flex;
     flex-wrap:wrap;
@@ -1556,6 +1556,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
+    left: 5em;
     align-items: center;
 }
 
@@ -1564,6 +1565,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
+    left: 5em;
     align-items: center;
 
 }
@@ -1573,6 +1575,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
+    left: 5em;
     align-items: center;
 
 }
@@ -1582,6 +1585,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
+    left: 5em;
     align-items: center;
 
 }
@@ -1591,7 +1595,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer6_setting{
@@ -1599,7 +1603,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer5_setting{
@@ -1607,7 +1611,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer4_setting{
@@ -1615,7 +1619,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer3_setting{
@@ -1623,7 +1627,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer2_setting{
@@ -1631,7 +1635,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 #layer1_setting{
@@ -1639,7 +1643,7 @@ div #plot-summaries{
     width: 100%;
     opacity: 0;
     z-index: -1;
-    left: 2em;
+    left: 5em;
 }
 
 

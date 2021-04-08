@@ -1678,7 +1678,7 @@ window.addEventListener('load', (event) => {
     setTimeout(() => {document.getElementById("preloader").style.opacity = "0.2";}, 4700);
     setTimeout(() => {document.getElementById("preloader").style.opacity = "0.1";}, 4800);
     setTimeout(() => {document.getElementById("preloader").style.display = "none";}, 4900);
-    setTimeout(() => {sessionStorage.setItem("noPreloader", "true"); console.log("no preloader Session Storage activated")}, 4900); 	
+    setTimeout(() => {sessionStorage.setItem("noPreloader", "true", "path=/"); console.log("no preloader Session Storage activated")}, 4900); 	
 })
 
 if (sessionStorage.noPreloader == "true"){
@@ -1686,13 +1686,19 @@ if (sessionStorage.noPreloader == "true"){
  	console.log("noPreloader works");
 }
 
-// let noPreloader = sessionStorage.getItem("noPreloader");
-
-// if(noPreloader = true){
-// 	document.getElementById("preloader").style.display = "none";
-// 	console.log("noPreloader works");
-// }
 
 // ^ this is for if pics ARE loaded
+
+
+// let noPreloader = document.getElementById("homePage");
+
+// noPreloader.onclick = function(){
+
+// 	document.getElementById("preloader").style.display = "none";
+// 	console.log("nopreloader works")
+
+// }
+
+// ^ dis dont do shit :P
 
 //---------------------------------------------------------------------- 
