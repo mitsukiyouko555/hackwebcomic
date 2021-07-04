@@ -285,10 +285,107 @@ function incompatible(nope){
 	}
 }
 
-let nope = window.matchMedia("(min-width:0px) and (max-width:725px)")
+let nope = window.matchMedia("(min-width:0px) and (max-width:799px)")
 incompatible(nope)
-nope.addListener(incompatible)
+nope.addListener(incompatible) 
 
+// -------------------------------------------------------------
+
+
+//Written out in plain english, all panel bgs (character and setting) needs to have a height of 715 px if screensize is under current size 249 + 1199 = 1448 so lets say if its smaller than 1447, all panel bgs should reach all the way to the bottom. character panels are at a default of 100 em except for the mcs who are at 200 em. atlantis_overview_text and zionix_overview_text's "left" parameters should be at 2 on full height and regular should be 5em
+
+function fullheight(full){
+	if (full.matches){
+		//height for all panels = 715px
+		document.getElementById("zionix_panel").style.height = "100em";
+		document.getElementById("atlantis_panel").style.height = "100em";
+		document.getElementById("atlantis_overview_text").style.left = "2em";
+		document.getElementById("zionix_overview_text").style.left = "2em";	
+		document.getElementById("Maxus-panel").style.height = "325em";
+		document.getElementById("Hydra-panel").style.height = "325em";
+		document.getElementById("Alis-panel").style.height = "325em";
+		document.getElementById("Mouse-panel").style.height = "325em";
+		document.getElementById("Mal-panel").style.height = "325m";
+		document.getElementById("Sally-panel").style.height = "165em";
+		document.getElementById("Jolly-panel").style.height = "165em";
+		document.getElementById("Kale-panel").style.height = "165em";
+		document.getElementById("Ziah-panel").style.height = "165em";
+		document.getElementById("Sai-panel").style.height = "165em";
+		document.getElementById("Aeru-panel").style.height = "165em";
+		document.getElementById("Ransom-panel").style.height = "165em";
+		document.getElementById("Kobe-panel").style.height = "165em";
+		document.getElementById("Spydr-panel").style.height = "165em";
+		document.getElementById("Kali-panel").style.height = "165em";
+		document.getElementById("Cheshire-panel").style.height = "165em";
+		document.getElementById("Dormouse-panel").style.height = "165em";
+		document.getElementById("Boshi-panel").style.height = "165em";
+		document.getElementById("Chestil-panel").style.height = "165em";
+		document.getElementById("Cody-panel").style.height = "165em";
+		document.getElementById("Bank-panel").style.height = "165em";		
+		document.getElementById("Hockt-panel").style.height = "165em";
+		document.getElementById("Lexo-panel").style.height = "165em";
+		document.getElementById("Badely-panel").style.height = "165em";
+		document.getElementById("Gillian-panel").style.height = "165em";
+		document.getElementById("Inko-panel").style.height = "165em";
+		document.getElementById("Musashi-panel").style.height = "165em";
+		document.getElementById("Codec-panel").style.height = "165em";
+		document.getElementById("Melody-panel").style.height = "165em";
+		document.getElementById("Bones-panel").style.height = "165em";
+		document.getElementById("Cheesecake-panel").style.height = "165em";
+		document.getElementById("Nori-Shiro-panel").style.height = "165em";
+		document.getElementById("footer").style.top = "475em";
+
+		// footer - default: top: 283em;
+
+		console.log("fullheight works!")
+	}
+
+	else{
+		//height = initial for panel and setting_panel
+		document.getElementById("zionix_panel").style.height = "60em";
+		document.getElementById("atlantis_panel").style.height = "60em";
+		document.getElementById("atlantis_overview_text").style.left = "5em";		
+		document.getElementById("zionix_overview_text").style.left = "5em";		
+		document.getElementById("Maxus-panel").style.height = "200em";
+		document.getElementById("Hydra-panel").style.height = "200em";
+		document.getElementById("Alis-panel").style.height = "200em";
+		document.getElementById("Mouse-panel").style.height = "200em";
+		document.getElementById("Mal-panel").style.height = "200em";	
+		document.getElementById("Sally-panel").style.height = "100em";
+		document.getElementById("Jolly-panel").style.height = "100em";
+		document.getElementById("Kale-panel").style.height = "100em";
+		document.getElementById("Ziah-panel").style.height = "100em";
+		document.getElementById("Sai-panel").style.height = "100em";
+		document.getElementById("Aeru-panel").style.height = "100em";
+		document.getElementById("Ransom-panel").style.height = "100em";
+		document.getElementById("Kobe-panel").style.height = "100em";
+		document.getElementById("Spydr-panel").style.height = "100em";
+		document.getElementById("Kali-panel").style.height = "100em";
+		document.getElementById("Cheshire-panel").style.height = "100em";
+		document.getElementById("Dormouse-panel").style.height = "100em";
+		document.getElementById("Boshi-panel").style.height = "100em";
+		document.getElementById("Chestil-panel").style.height = "100em";
+		document.getElementById("Cody-panel").style.height = "100em";
+		document.getElementById("Bank-panel").style.height = "100em";		
+		document.getElementById("Hockt-panel").style.height = "100em";
+		document.getElementById("Lexo-panel").style.height = "100em";
+		document.getElementById("Badely-panel").style.height = "100em";
+		document.getElementById("Gillian-panel").style.height = "100em";
+		document.getElementById("Inko-panel").style.height = "100em";
+		document.getElementById("Musashi-panel").style.height = "100em";
+		document.getElementById("Codec-panel").style.height = "100em";
+		document.getElementById("Melody-panel").style.height = "100em";
+		document.getElementById("Bones-panel").style.height = "100em";
+		document.getElementById("Cheesecake-panel").style.height = "100em";
+		document.getElementById("Nori-Shiro-panel").style.height = "100em";
+		document.getElementById("footer").style.top = "285em";
+		console.log("fullheight does not work")
+	}
+}
+
+let full = window.matchMedia("(min-width:0px) and (max-width:1300px)")
+fullheight(full)
+full.addListener(fullheight)
 
 //----------------------------------------------------------------------
 // Below is what makes all the panels pop up when you click on the hexagons.

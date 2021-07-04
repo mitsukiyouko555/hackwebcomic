@@ -1349,7 +1349,7 @@ div #plot-summaries{
 
 .settingnameInPanel{
     position: absolute;
-    top: 2em;
+    top: 0.5em;
     left: 3%;
 }
 
@@ -1654,7 +1654,7 @@ div #plot-summaries{
     white-space: normal;
     text-align: left;
     width: 90%;
-    left: 3em;
+    left: 1em;
 }   
 
 .setting_img{
@@ -1668,7 +1668,7 @@ div #plot-summaries{
 
 .setting_name_in_panel{
     position: absolute;
-    top: -4.5em;
+    top: -5.5em;
     left: 3%;
     opacity: 1;
 }
@@ -1676,8 +1676,8 @@ div #plot-summaries{
 .setting_back{
     position: absolute;
     display: block;
-    right: 6em;     
-    top: -3.5em;
+    right: 8em;     
+    top: -1.65em;
     font-size: 30px;
     color: #21D8A8;
     z-index: 1;
@@ -1698,8 +1698,8 @@ div #plot-summaries{
 .atlantis_overview{
     position: absolute;
     display: block;
-    right: 12em;     
-    top: 2.5em;
+    left: 2em;     
+    top: 3.5em;
     font-size: 30px;
     color: #21D8A8;
     z-index: 1;
@@ -1709,8 +1709,8 @@ div #plot-summaries{
 .atlantis_overview_back{
     position: absolute;
     display: block;
-    right: 4.7em;     
-    top: 1.85em;
+    right: 6em;     
+    top: 3em;
     font-size: 30px;
     color: #21D8A8;
     z-index: 1;
@@ -1720,8 +1720,8 @@ div #plot-summaries{
 .zionix_overview{
     position: absolute;
     display: block;
-    right: 12em;     
-    top: 2.5em;
+    left: 2em;     
+    top: 4em;
     font-size: 30px;
     color: #21D8A8;
     z-index: 1;
@@ -1731,8 +1731,8 @@ div #plot-summaries{
 .zionix_overview_back{
     position: absolute;
     display: block;
-    right: 4.7em;     
-    top: 1.85em;
+    right: 6em;     
+    top: 3em;
     font-size: 30px;
     color: #21D8A8;
     z-index: 1;
