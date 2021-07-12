@@ -128,21 +128,29 @@ footer{
 }
 
 .loadingbar{
-/*	background-color:#7B7876
-*/	border-radius: 20px;
+/*	background-color:#7B7876*/
 	z-index: 32;
 /*	width: 51.5%;*/
 	width: 0%;
 	position: absolute;
 	left: 24.2%;
 	top: 80.7%;
-	text-align: center;
 	color: white;
+	border-color: black;
+	border-radius: 25px;
+	border-style: solid;
+	height: 25px;
+
 }
+
 
 .loadingbardone{
 	background: linear-gradient(to left, #1BB96B , #167D58);
-	border-radius: 20px;
-	height: 1.75em;
+	border-radius: 25px;
 	transition: 1s ease;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }

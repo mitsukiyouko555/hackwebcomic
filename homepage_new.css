@@ -556,12 +556,12 @@ div #plot-summaries{
     height: 260px;
 }
 #Sai:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/sai_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Aeru:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/aeru_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
@@ -629,7 +629,7 @@ div #plot-summaries{
 }
 
 #Mal:hover{
-    content: url(img/hexagon_hover.gif);
+    content: url(img/mal_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
@@ -772,15 +772,9 @@ div #plot-summaries{
     align-content: center;
 }
 
-/*.panel span{
-    position: absolute;
-    display: block;
-    right: 5%;
-    top: 2%;
-    font-size: 90px;
-    opacity: 50%;
-    color: #21D8A8;
-}*/
+.panel:hover{
+    cursor: default;
+}
 
 #Maxus-panel{
     display: block;
@@ -1128,157 +1122,157 @@ div #plot-summaries{
 }
 
 #Sally-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Jolly-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Kale-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Ziah-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Hydra-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Sai-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Aeru-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Ransom-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Kobe-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Spydr-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Kali-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Alis-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Cheshire-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Dormouse-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Boshi-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Mouse-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Chestil-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Cody-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Bank-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Mal-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Hockt-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Lexo-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Badely-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Gillian-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Inko-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Musashi-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Codec-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Melody-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Bones-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Cheesecake-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
 #Nori-Shiro-info{
-    top: 17em;
+    top: 14em;
     position: relative;
 }
 
@@ -1426,21 +1420,25 @@ div #plot-summaries{
 #jollyland{
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #quarries{
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #exodus{
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #fortress{
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #jollyland:hover{
@@ -1478,42 +1476,49 @@ div #plot-summaries{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer6{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer5{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer4{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer3{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer2{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer1{
     padding-top: 2.5em;
     padding-left: 1em;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 #layer7:hover{
@@ -1655,14 +1660,15 @@ div #plot-summaries{
     text-align: left;
     width: 90%;
     left: 1em;
+    font-family: 'Antic Slab', serif;
 }   
 
 .setting_img{
-    float: left; 
+    float: right; 
     width: 300px; 
     height: 300px; 
     margin: 0px; 
-    padding-right: 2em; 
+    padding-left: 2em; 
     padding-bottom: 2em; 
 }
 
@@ -1682,6 +1688,7 @@ div #plot-summaries{
     color: #21D8A8;
     z-index: 1;
     opacity: 0;
+    font-family: 'Antic Slab', serif;
 }
 
 .setting_back:hover{
@@ -1704,6 +1711,7 @@ div #plot-summaries{
     color: #21D8A8;
     z-index: 1;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 .atlantis_overview_back{
@@ -1715,6 +1723,7 @@ div #plot-summaries{
     color: #21D8A8;
     z-index: 1;
     opacity: 0;
+    font-family: 'Antic Slab', serif;
 }
 
 .zionix_overview{
@@ -1726,6 +1735,7 @@ div #plot-summaries{
     color: #21D8A8;
     z-index: 1;
     opacity: 1;
+    font-family: 'Antic Slab', serif;
 }
 
 .zionix_overview_back{
@@ -1737,6 +1747,7 @@ div #plot-summaries{
     color: #21D8A8;
     z-index: 1;
     opacity: 0;
+    font-family: 'Antic Slab', serif;
 }
 
 
@@ -1766,21 +1777,25 @@ div #plot-summaries{
 #atlantis_overview_text{
     position: absolute;
     width: 90%;
-    top: 10em;
+    top: 6em;
     opacity: 0;
     z-index: -1;
     white-space: normal;
     left: 5em;
+    font-family: 'Antic Slab', serif;
+    text-align: left;
 }
 
 #zionix_overview_text{
     position: absolute;
     width: 90%;
-    top: 10em;
+    top: 6em;
     opacity: 0;
     z-index: -1;
     white-space: normal;
     left: 5em;
+    font-family: 'Antic Slab', serif;
+    text-align: left;
 }
 
 

@@ -403,9 +403,9 @@ maxusplotToggle.addEventListener("click", function(){
 	if(maxusplotclicks %2 !== 0){
 		// jpToEng();
 		console.log("maxusplotclicksisworking");
-		document.getElementById("maxus-sum-jp").style.opacity = "0";
+		document.getElementById("maxus-sum-jp").style.opacity = "1";
 		// document.getElementById("maxus-eng").style.opacity = "0";
-		document.getElementById("maxus-sum").style.opacity = "1";
+		document.getElementById("maxus-sum").style.opacity = "0";
 		// document.getElementById("maxus-jp").style.opacity = "1";	
 	}
 
@@ -413,9 +413,9 @@ maxusplotToggle.addEventListener("click", function(){
 	else if(maxusplotclicks %2 == 0){
 		// engToJp();
 		console.log("else is working")
-		document.getElementById("maxus-sum-jp").style.opacity = "1";
+		document.getElementById("maxus-sum-jp").style.opacity = "0";
 		// document.getElementById("maxus-eng").style.opacity = "1";
-		document.getElementById("maxus-sum").style.opacity = "0";
+		document.getElementById("maxus-sum").style.opacity = "1";
 		// document.getElementById("maxus-jp").style.opacity = "0";	
 	}
 }); 
@@ -435,9 +435,9 @@ hydraplotToggle.addEventListener("click", function(){
 	if(hydraplotclicks %2 !== 0){
 		// jpToEng();
 		console.log("hydraplotclicksisworking");
-		document.getElementById("hydra-sum-jp").style.opacity = "0";
+		document.getElementById("hydra-sum-jp").style.opacity = "1";
 		// document.getElementById("hydra-eng").style.opacity = "0";
-		document.getElementById("hydra-sum").style.opacity = "1";
+		document.getElementById("hydra-sum").style.opacity = "0";
 		// document.getElementById("hydra-jp").style.opacity = "1";	
 	}
 
@@ -445,9 +445,9 @@ hydraplotToggle.addEventListener("click", function(){
 	else if(hydraplotclicks %2 == 0){
 		// engToJp();
 		console.log("else is working")
-		document.getElementById("hydra-sum-jp").style.opacity = "1";
+		document.getElementById("hydra-sum-jp").style.opacity = "0";
 		// document.getElementById("hydra-eng").style.opacity = "1";
-		document.getElementById("hydra-sum").style.opacity = "0";
+		document.getElementById("hydra-sum").style.opacity = "1";
 		// document.getElementById("hydra-jp").style.opacity = "0";	
 	}
 }); 
@@ -466,9 +466,9 @@ mouseplotToggle.addEventListener("click", function(){
 	if(mouseplotclicks %2 !== 0){
 		// jpToEng();
 		console.log("mouseplotclicksisworking");
-		document.getElementById("mouse-sum-jp").style.opacity = "0";
+		document.getElementById("mouse-sum-jp").style.opacity = "1";
 		// document.getElementById("mal-eng").style.opacity = "0";
-		document.getElementById("mouse-sum").style.opacity = "1";
+		document.getElementById("mouse-sum").style.opacity = "0";
 		// document.getElementById("mal-jp").style.opacity = "1";	
 
 	}
@@ -477,9 +477,9 @@ mouseplotToggle.addEventListener("click", function(){
 	else if(mouseplotclicks %2 == 0){
 		// engToJp();
 		console.log("else is working")
-		document.getElementById("mouse-sum-jp").style.opacity = "1";
-		// document.getElementById("mal-eng").style.opacity = "1";
-		document.getElementById("mouse-sum").style.opacity = "0";
+	document.getElementById("mouse-sum-jp").style.opacity = "0";
+		// document.getElementById("mal-eng").style.opacity = "1"
+		document.getElementById("mouse-sum").style.opacity = "1";
 		// document.getElementById("mal-jp").style.opacity = "0";	
 
 	}
@@ -499,9 +499,9 @@ alisplotToggle.addEventListener("click", function(){
 	if(alisplotclicks %2 !== 0){
 		// jpToEng();
 		console.log("alisplotclicksisworking");
-		document.getElementById("alis-sum-jp").style.opacity = "0";
+		document.getElementById("alis-sum-jp").style.opacity = "1";
 		// document.getElementById("alis-eng").style.opacity = "0";
-		document.getElementById("alis-sum").style.opacity = "1";
+		document.getElementById("alis-sum").style.opacity = "0";
 		// document.getElementById("alis-jp").style.opacity = "1";	
 	}
 
@@ -509,9 +509,9 @@ alisplotToggle.addEventListener("click", function(){
 	else if(alisplotclicks %2 == 0){
 		// engToJp();
 		console.log("else is working")
-		document.getElementById("alis-sum-jp").style.opacity = "1";
+		document.getElementById("alis-sum-jp").style.opacity = "0";
 		// document.getElementById("alis-eng").style.opacity = "1";
-		document.getElementById("alis-sum").style.opacity = "0";
+		document.getElementById("alis-sum").style.opacity = "1";
 		// document.getElementById("alis-jp").style.opacity = "0";	
 	}
 }); 
@@ -530,9 +530,9 @@ malplotToggle.addEventListener("click", function(){
 	if(malplotclicks %2 !== 0){
 		// jpToEng();
 		console.log("malplotclicksisworking");
-		document.getElementById("mal-sum-jp").style.opacity = "0";
+		document.getElementById("mal-sum-jp").style.opacity = "1";
 		// document.getElementById("mal-eng").style.opacity = "0";
-		document.getElementById("mal-sum").style.opacity = "1";
+		document.getElementById("mal-sum").style.opacity = "0";
 		// document.getElementById("mal-jp").style.opacity = "1";	
 	}
 
@@ -540,9 +540,9 @@ malplotToggle.addEventListener("click", function(){
 	else if(malplotclicks %2 == 0){
 		// engToJp();
 		console.log("else is working")
-		document.getElementById("mal-sum-jp").style.opacity = "1";
+		document.getElementById("mal-sum-jp").style.opacity = "0";
 		// document.getElementById("mal-eng").style.opacity = "1";
-		document.getElementById("mal-sum").style.opacity = "0";
+		document.getElementById("mal-sum").style.opacity = "1";
 		// document.getElementById("mal-jp").style.opacity = "0";	
 	}
 }); 
@@ -1683,7 +1683,7 @@ atlantis_overview.onclick = function display(){
 	document.getElementById("exodus").style.opacity = "0";
 	document.getElementById("fortress").style.opacity = "0";
 	document.getElementById("atlantis_overview_text").style.zIndex = "2";
-	document.getElementById("atlantis_overview_back").style.zIndex = "2";
+	document.getElementById("atlantis_overview_back").style.zIndex = "3";
 }
  
 let atlantis_overview_back = document.getElementById("atlantis_overview_back");
@@ -1719,7 +1719,7 @@ zionix_overview.onclick = function display(){
 	document.getElementById("layer2").style.opacity = "0";
 	document.getElementById("layer1").style.opacity = "0";
 	document.getElementById("zionix_overview_text").style.zIndex = "2";
-	document.getElementById("zionix_overview_back").style.zIndex = "2";
+	document.getElementById("zionix_overview_back").style.zIndex = "3";
 }
  
 let zionix_overview_back = document.getElementById("zionix_overview_back");
@@ -1756,7 +1756,8 @@ zionix_overview_back.onclick = function(){
 	document.addEventListener("DOMContentLoaded", (event) =>{
     console.log("dom content loaded");
     document.getElementById("loadingbar").style.width = "5%";
-    setTimeout(() => {document.getElementById("loadingbar").style.width = "15%";}, 300);    
+    setTimeout(() => {document.getElementById("loadingbar").style.width = "15%";}, 300);
+    setTimeout(() => {document.getElementById("loadingbar").style.width = "25%";}, 500);        
     setTimeout(() => {document.getElementById("loadingbar").style.width = "35%";}, 700);
 
 });
