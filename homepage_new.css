@@ -1659,16 +1659,16 @@ div #plot-summaries{
     white-space: normal;
     text-align: left;
     width: 90%;
-    left: 1em;
+    left: 2em;
     font-family: 'Antic Slab', serif;
 }   
 
 .setting_img{
     float: right; 
-    width: 300px; 
-    height: 300px; 
+    width: 450px; 
+    height: 675px; 
     margin: 0px; 
-    padding-left: 2em; 
+    padding-left: 1.5em; 
     padding-bottom: 2em; 
 }
 
@@ -1796,6 +1796,11 @@ div #plot-summaries{
     left: 5em;
     font-family: 'Antic Slab', serif;
     text-align: left;
+}
+
+.color-text{
+    font-family: 'Antic Slab', serif;
+    color: #21D8A8;
 }
 
 
