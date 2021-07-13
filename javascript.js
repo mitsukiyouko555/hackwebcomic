@@ -299,8 +299,8 @@ function fullheight(full){
 		//height for all panels = 715px
 		document.getElementById("zionix_panel").style.height = "100em";
 		document.getElementById("atlantis_panel").style.height = "100em";
-		document.getElementById("atlantis_overview_text").style.left = "2em";
-		document.getElementById("zionix_overview_text").style.left = "2em";	
+		document.getElementById("atlantis_overview").style.right = "2.5em";
+		document.getElementById("zionix_overview").style.right = "2.5em";	
 		document.getElementById("Maxus-panel").style.height = "325em";
 		document.getElementById("Hydra-panel").style.height = "325em";
 		document.getElementById("Alis-panel").style.height = "325em";
@@ -344,8 +344,8 @@ function fullheight(full){
 		//height = initial for panel and setting_panel
 		document.getElementById("zionix_panel").style.height = "60em";
 		document.getElementById("atlantis_panel").style.height = "60em";
-		document.getElementById("atlantis_overview_text").style.left = "5em";		
-		document.getElementById("zionix_overview_text").style.left = "5em";		
+		document.getElementById("atlantis_overview").style.right = "6em";		
+		document.getElementById("zionix_overview").style.right = "6em";		
 		document.getElementById("Maxus-panel").style.height = "200em";
 		document.getElementById("Hydra-panel").style.height = "200em";
 		document.getElementById("Alis-panel").style.height = "200em";
@@ -386,6 +386,14 @@ function fullheight(full){
 let full = window.matchMedia("(min-width:0px) and (max-width:1300px)")
 fullheight(full)
 full.addListener(fullheight)
+
+
+//----------------------------------------------------------------------
+//If it goes bigger than current screensize, atlantis and zioniix overview AND the back buttons for those 2 should be style.right 7.
+//----------------------------------------------------------------------
+
+
+
 
 //----------------------------------------------------------------------
 // Below is what makes all the panels pop up when you click on the hexagons.
