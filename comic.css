@@ -2,6 +2,18 @@
 	width: 100%;
 }
 .flex-container{
+	width:100%;
+	overflow-x: hidden;
+	flex-wrap: wrap;
+}
+
+.comic_links{
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-top: 5em;
+
+
 }

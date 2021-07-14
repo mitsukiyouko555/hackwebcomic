@@ -1249,7 +1249,7 @@ jollylandSetting.onclick = function display(){
 	document.getElementById("atlantis_settingnameInPanel").style.opacity = "0";
 	document.getElementById("jollyland_setting").style.zIndex = "2";
 	document.getElementById("jollyland-close").style.zIndex = "2";
-	document.getElementById("atlantis_overview").style.opacity = "0";
+	document.getElementById("atlantis_overview").style.visibility = "hidden";
 
 }
  
@@ -1266,7 +1266,7 @@ jollylandclose.onclick = function(){
 	document.getElementById("jollyland-close").style.opacity = "0";
 	document.getElementById("jollyland_setting").style.zIndex = "-1";
 	document.getElementById("jollyland-close").style.zIndex = "-1";
-	document.getElementById("atlantis_overview").style.opacity = "1";
+	document.getElementById("atlantis_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Quarries
@@ -1286,7 +1286,7 @@ quarriesSetting.onclick = function display(){
 	document.getElementById("atlantis_settingnameInPanel").style.opacity = "0";
 	document.getElementById("quarries_setting").style.zIndex = "2";
 	document.getElementById("quarries-close").style.zIndex = "2";
-	document.getElementById("atlantis_overview").style.opacity = "0";
+	document.getElementById("atlantis_overview").style.visibility = "hidden";
 }
  
 let quarriesclose = document.getElementById("quarries-close");
@@ -1302,7 +1302,7 @@ quarriesclose.onclick = function(){
 	document.getElementById("quarries-close").style.opacity = "0";
 	document.getElementById("quarries_setting").style.zIndex = "-1";
 	document.getElementById("quarries-close").style.zIndex = "-1";
-	document.getElementById("atlantis_overview").style.opacity = "1";
+	document.getElementById("atlantis_overview").style.visibility = "visible";
 }
 
 
@@ -1323,7 +1323,7 @@ exodusSetting.onclick = function display(){
 	document.getElementById("atlantis_settingnameInPanel").style.opacity = "0";
 	document.getElementById("exodus_setting").style.zIndex = "2";
 	document.getElementById("exodus-close").style.zIndex = "2";
-	document.getElementById("atlantis_overview").style.opacity = "0";
+	document.getElementById("atlantis_overview").style.visibility = "hidden";
 }
  
 let exodusclose = document.getElementById("exodus-close");
@@ -1339,7 +1339,7 @@ exodusclose.onclick = function(){
 	document.getElementById("exodus-close").style.opacity = "0";
 	document.getElementById("exodus_setting").style.zIndex = "-1";
 	document.getElementById("exodus-close").style.zIndex = "-1";
-	document.getElementById("atlantis_overview").style.opacity = "1";
+	document.getElementById("atlantis_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Fortress
@@ -1359,7 +1359,7 @@ fortressSetting.onclick = function display(){
 	document.getElementById("atlantis_settingnameInPanel").style.opacity = "0";
 	document.getElementById("fortress_setting").style.zIndex = "2";
 	document.getElementById("fortress-close").style.zIndex = "2";
-	document.getElementById("atlantis_overview").style.opacity = "0";
+	document.getElementById("atlantis_overview").style.visibility = "hidden";
 }
  
 let fortressclose = document.getElementById("fortress-close");
@@ -1375,7 +1375,7 @@ fortressclose.onclick = function(){
 	document.getElementById("fortress-close").style.opacity = "0";
 	document.getElementById("fortress_setting").style.zIndex = "-1";
 	document.getElementById("fortress-close").style.zIndex = "-1";
-	document.getElementById("atlantis_overview").style.opacity = "1";
+	document.getElementById("atlantis_overview").style.visibility = "visible";
 }
 
 
@@ -1399,7 +1399,7 @@ layer7Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer7_setting").style.zIndex = "2";
 	document.getElementById("layer7-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer7close = document.getElementById("layer7-close");
@@ -1418,7 +1418,7 @@ layer7close.onclick = function(){
 	document.getElementById("layer7-close").style.opacity = "0";
 	document.getElementById("layer7_setting").style.zIndex = "-1";
 	document.getElementById("layer7-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 6
@@ -1441,7 +1441,7 @@ layer6Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer6_setting").style.zIndex = "2";
 	document.getElementById("layer6-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer6close = document.getElementById("layer6-close");
@@ -1460,7 +1460,7 @@ layer6close.onclick = function(){
 	document.getElementById("layer6-close").style.opacity = "0";
 	document.getElementById("layer6_setting").style.zIndex = "-1";
 	document.getElementById("layer6-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 5
@@ -1483,7 +1483,7 @@ layer5Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer5_setting").style.zIndex = "2";
 	document.getElementById("layer5-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer5close = document.getElementById("layer5-close");
@@ -1502,7 +1502,7 @@ layer5close.onclick = function(){
 	document.getElementById("layer5-close").style.opacity = "0";
 	document.getElementById("layer5_setting").style.zIndex = "-1";
 	document.getElementById("layer5-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 4
@@ -1525,7 +1525,7 @@ layer4Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer4_setting").style.zIndex = "2";
 	document.getElementById("layer4-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer4close = document.getElementById("layer4-close");
@@ -1544,7 +1544,7 @@ layer4close.onclick = function(){
 	document.getElementById("layer4-close").style.opacity = "0";
 	document.getElementById("layer4_setting").style.zIndex = "-1";
 	document.getElementById("layer4-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 3
@@ -1567,7 +1567,7 @@ layer3Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer3_setting").style.zIndex = "2";
 	document.getElementById("layer3-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer3close = document.getElementById("layer3-close");
@@ -1586,7 +1586,7 @@ layer3close.onclick = function(){
 	document.getElementById("layer3-close").style.opacity = "0";
 	document.getElementById("layer3_setting").style.zIndex = "-1";
 	document.getElementById("layer3-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 2
@@ -1609,7 +1609,7 @@ layer2Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer2_setting").style.zIndex = "2";
 	document.getElementById("layer2-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer2close = document.getElementById("layer2-close");
@@ -1628,7 +1628,7 @@ layer2close.onclick = function(){
 	document.getElementById("layer2-close").style.opacity = "0";
 	document.getElementById("layer2_setting").style.zIndex = "-1";
 	document.getElementById("layer2-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 //---------------------------------------------------------------------- Layer 1
@@ -1651,7 +1651,7 @@ layer1Setting.onclick = function display(){
 	document.getElementById("zionix_settingnameInPanel").style.opacity = "0";
 	document.getElementById("layer1_setting").style.zIndex = "2";
 	document.getElementById("layer1-close").style.zIndex = "2";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 }
  
 let layer1close = document.getElementById("layer1-close");
@@ -1670,7 +1670,7 @@ layer1close.onclick = function(){
 	document.getElementById("layer1-close").style.opacity = "0";
 	document.getElementById("layer1_setting").style.zIndex = "-1";
 	document.getElementById("layer1-close").style.zIndex = "-1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 }
 
 
@@ -1685,7 +1685,7 @@ atlantis_overview.onclick = function display(){
 	console.log("hello atlantis_overview");
 	document.getElementById("atlantis_overview_text").style.opacity = "1";
 	document.getElementById("atlantis_overview_back").style.opacity = "1";
-	document.getElementById("atlantis_overview").style.opacity = "0";
+	document.getElementById("atlantis_overview").style.visibility = "hidden";
 	document.getElementById("jollyland").style.opacity = "0";
 	document.getElementById("quarries").style.opacity = "0";
 	document.getElementById("exodus").style.opacity = "0";
@@ -1702,7 +1702,7 @@ atlantis_overview_back.onclick = function(){
 	document.getElementById("quarries").style.opacity = "1";
 	document.getElementById("exodus").style.opacity = "1";
 	document.getElementById("fortress").style.opacity = "1";
-	document.getElementById("atlantis_overview").style.opacity = "1";
+	document.getElementById("atlantis_overview").style.visibility = "visible";
 	document.getElementById("atlantis_overview_text").style.opacity = "0";
 	document.getElementById("atlantis_overview_back").style.opacity = "0";
 	document.getElementById("atlantis_overview_text").style.zIndex = "-1";
@@ -1718,7 +1718,7 @@ zionix_overview.onclick = function display(){
 	console.log("hello zionix_overview");
 	document.getElementById("zionix_overview_text").style.opacity = "1";
 	document.getElementById("zionix_overview_back").style.opacity = "1";
-	document.getElementById("zionix_overview").style.opacity = "0";
+	document.getElementById("zionix_overview").style.visibility = "hidden";
 	document.getElementById("layer7").style.opacity = "0";
 	document.getElementById("layer6").style.opacity = "0";
 	document.getElementById("layer5").style.opacity = "0";
@@ -1741,7 +1741,7 @@ zionix_overview_back.onclick = function(){
 	document.getElementById("layer3").style.opacity = "1";
 	document.getElementById("layer2").style.opacity = "1";
 	document.getElementById("layer1").style.opacity = "1";
-	document.getElementById("zionix_overview").style.opacity = "1";
+	document.getElementById("zionix_overview").style.visibility = "visible";
 	document.getElementById("zionix_overview_text").style.opacity = "0";
 	document.getElementById("zionix_overview_back").style.opacity = "0";
 	document.getElementById("zionix_overview_text").style.zIndex = "-1";
