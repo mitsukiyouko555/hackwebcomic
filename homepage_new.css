@@ -581,7 +581,7 @@ div #plot-summaries{
     height: 260px;
 }
 #Kali:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/kali_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
@@ -613,12 +613,12 @@ div #plot-summaries{
     height: 260px;
 }
 #Cheshire:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/cheshire_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Dormouse:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/dormouse_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
