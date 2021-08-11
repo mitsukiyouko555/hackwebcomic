@@ -592,17 +592,17 @@ div #plot-summaries{
     height: 260px;
 }
 #Chestil:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/chestil_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Cody:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/cody_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Bank:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/bank_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
@@ -623,7 +623,7 @@ div #plot-summaries{
     height: 260px;
 }
 #Boshi:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/boshi_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }

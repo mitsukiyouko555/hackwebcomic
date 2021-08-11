@@ -832,6 +832,24 @@ chestilclose.onclick = function(){
 	chestilelement.style.zIndex = "0";
 }
 
+// // -------------------------------------------------------- 
+
+let bankelement = document.getElementById("Bank-panel");
+let BankHex = document.getElementById("Bank");
+
+BankHex.onclick = function display(){
+	console.log("hello");
+	document.getElementById("Bank-panel").style.opacity = "1";
+	document.getElementById("Bank-panel").style.zIndex = "4";
+}
+
+ 
+let bankclose = document.getElementsByClassName("close")[14];
+
+bankclose.onclick = function(){
+	bankelement.style.opacity = 0;
+	bankelement.style.zIndex = "0";
+}
 
 // // -------------------------------------------------------- 
 
@@ -845,32 +863,13 @@ CodyHex.onclick = function display(){
 }
 
  
-let codyclose = document.getElementsByClassName("close")[14];
+let codyclose = document.getElementsByClassName("close")[15];
 
 codyclose.onclick = function(){
 	codyelement.style.opacity = 0;
 	codyelement.style.zIndex = "0";
 }
 
-
-// // -------------------------------------------------------- 
-
-let bankelement = document.getElementById("Bank-panel");
-let BankHex = document.getElementById("Bank");
-
-BankHex.onclick = function display(){
-	console.log("hello");
-	document.getElementById("Bank-panel").style.opacity = "1";
-	document.getElementById("Bank-panel").style.zIndex = "4";
-}
-
- 
-let bankclose = document.getElementsByClassName("close")[15];
-
-bankclose.onclick = function(){
-	bankelement.style.opacity = 0;
-	bankelement.style.zIndex = "0";
-}
 
 
 // // -------------------------------------------------------- 
