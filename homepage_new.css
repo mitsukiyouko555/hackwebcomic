@@ -634,17 +634,17 @@ div #plot-summaries{
     height: 260px;
 }
 #Hockt:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/hockt_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Lexo:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/lexo_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Badely:hover{
-    content: url(img/silverhexagon_hover.gif);
+    content: url(img/badely_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
@@ -654,37 +654,37 @@ div #plot-summaries{
     height: 260px;
 }
 #Inko:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/inko_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Musashi:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/musashi_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Codec:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/codec_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Melody:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/melody_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Bones:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/bones_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Cheesecake:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/cheesecake_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
 #Nori-Shiro:hover{
-    content: url(img/hexagon_other_chara_hover.gif);
+    content: url(img/shiro_nori_avatar_hover.gif);
     width: 245px;
     height: 260px;
 }
