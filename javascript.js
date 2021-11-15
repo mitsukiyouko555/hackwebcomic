@@ -305,7 +305,7 @@ function fullheight(full){
 		document.getElementById("Hydra-panel").style.height = "325em";
 		document.getElementById("Alis-panel").style.height = "325em";
 		document.getElementById("Mouse-panel").style.height = "325em";
-		document.getElementById("Mal-panel").style.height = "325m";
+		document.getElementById("Mal-panel").style.height = "325em";
 		document.getElementById("Sally-panel").style.height = "165em";
 		document.getElementById("Jolly-panel").style.height = "165em";
 		document.getElementById("Kale-panel").style.height = "165em";
