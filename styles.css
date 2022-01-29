@@ -113,7 +113,8 @@ footer{
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 100%;
+	display: flex;
+	height: auto;
 	color: #E0E0E0
 
 }
