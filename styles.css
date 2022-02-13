@@ -111,6 +111,7 @@ footer{
 
 #preloaderbg{
 	position: fixed;
+	width: 100%;
 	top: 0;
 	left: 0;
 	display: flex;
@@ -121,7 +122,7 @@ footer{
 
 #preloaderimg{
 	position: relative;
-	height: 100%;
+	width: 100%;
 	top: 7%;
 	display: flex;
 	justify-content: center;
