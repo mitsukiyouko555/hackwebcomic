@@ -1398,11 +1398,12 @@ div #plot-summaries{
 }
 
 .column {
-    display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     width: 90%;
+    justify-content: center;
+    text-align: center;
 }
 
 .atlantis_setting_pix{
