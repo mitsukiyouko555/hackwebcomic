@@ -81,10 +81,11 @@ nav li{
 }
 
 footer{
+	all: initial;
 	position: absolute;
 	text-align: center;
 	color: white;
-	top: 283em;
+	top: 317em !important;
 	white-space: normal;
 	width: 100%;
 }

@@ -28,7 +28,7 @@ li{
     position: relative;
     padding: 0px 0px;
     text-align: center;
-    top: 15em;
+    top: 8em;
 }
 
 
@@ -105,6 +105,7 @@ div #plot-summaries{
     display: inline-flex;
     flex-wrap: wrap;
     align-content: center;
+    padding-bottom: 10em;
 }
 
 
@@ -121,6 +122,19 @@ div #plot-summaries{
 }*/
 
 
+
+.overarchingplot{
+    font-size: 0.9em;
+    width: 90%;
+    display:inline-block;
+/*    flex-wrap:wrap;*/
+    align-items: center;
+/*    justify-content: center;*/
+    left: 50%;
+    text-align: left;
+    color:black;
+    font-family: 'Antic Slab', serif;
+}
 
 #maxus-sum{
     position:absolute;
@@ -362,162 +376,162 @@ div #plot-summaries{
 
 #Maxus{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Sally{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Jolly{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Kale{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Ziah{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Hydra{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Sai{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Aeru{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Ransom{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Kobe{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Spydr{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Kali{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Alis{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Cheshire{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Dormouse{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Boshi{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Mouse{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Chestil{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Cody{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Bank{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Mal{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Hockt{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Lexo{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Badely{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Gillian{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Inko{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Musashi{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Codec{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Melody{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Bones{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Cheesecake{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 #Nori-Shiro{
     position: relative;
-    top: 20em;
+    top: 12em;
     z-index: 3;
 }
 
@@ -1281,14 +1295,14 @@ div #plot-summaries{
     position: relative;
     padding: 0px 0px;
     text-align: center;
-    top: 32em;
-    color: white;
+    top: 25em;
+    color: black;
 }
 
 .setting_hex{
     text-align: center;
     position: relative;
-    top: 30em;
+    top: 25em;
 }
 
 #atlantis:hover{
