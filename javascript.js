@@ -186,7 +186,7 @@ function maxuslargescreen(maxusx){
 		console.log("maxuslargescreen is not working!!")
 }
 
-let maxusx = window.matchMedia("(min-width:1670px)")
+let maxusx = window.matchMedia("(min-width:1870px)")
 maxuslargescreen(maxusx)
 maxusx.addListener(maxuslargescreen)
 
@@ -205,7 +205,7 @@ function hydralargescreen(hydrax){
 }
 
 
-let hydrax = window.matchMedia("(min-width:1670px)")
+let hydrax = window.matchMedia("(min-width:1870px)")
 hydralargescreen(hydrax)
 hydrax.addListener(hydralargescreen)
 
@@ -224,7 +224,7 @@ function mouselargescreen(mousex){
 		console.log("mouselargescreen is not working!!")
 }
 
-let mousex = window.matchMedia("(min-width:1670px)")
+let mousex = window.matchMedia("(min-width:1870px)")
 mouselargescreen(mousex)
 mousex.addListener(mouselargescreen)
 
@@ -243,7 +243,7 @@ function alislargescreen(alisx){
 		console.log("alislargescreen is not working!!")
 }
 
-let alisx = window.matchMedia("(min-width:1670px)")
+let alisx = window.matchMedia("(min-width:1870px)")
 alislargescreen(alisx)
 alisx.addListener(alislargescreen)
 
@@ -262,7 +262,7 @@ function mallargescreen(malx){
 		console.log("mallargescreen is not working!!")
 }
 
-let malx = window.matchMedia("(min-width:1670px)")
+let malx = window.matchMedia("(min-width:1870px)")
 mallargescreen(malx)
 malx.addListener(mallargescreen)
 
