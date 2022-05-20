@@ -19,8 +19,9 @@ li{
 
 .plot{
     position: relative;
+    left: 5%;
     padding: 0px 0px;
-    text-align: center;
+    text-align: center !important;
     top: 5%;
 }
  
@@ -121,7 +122,9 @@ div #plot-summaries{
     color: white;
 }*/
 
-
+.overarchingplotdiv{
+    justify-content: center;
+}
 
 .overarchingplot{
     font-size: 0.9em;

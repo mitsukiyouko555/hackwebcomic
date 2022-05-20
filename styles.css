@@ -124,7 +124,7 @@ footer{
 
 #preloaderimg{
 	position: relative;
-	height: 100%;
+	width: 100%;
 	top: 7%;
 	display: flex;
 	justify-content: center;
