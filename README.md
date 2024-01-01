@@ -1,16 +1,16 @@
-### Hi there 👋
+### README
 
-<!--
-**mitsukiyouko555/mitsukiyouko555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi guys!
 
-Here are some ideas to get you started:
+This is a repository for me to host my website for my personal passion project. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Please do NOT clone/fork or otherwise download this repository!
+Please do NOT download my art and use it for your own purposes nor put them in AI please.
+
+If you are interested in my personal project, you can check it out here: https://mitsukiyouko555.wixsite.com/portfolio/personal-project
+I do also post my animations and art on IG and youtube :D
+
+IG: https://www.instagram.com/mitsuki_youko/
+Youtube: https://www.youtube.com/channel/UC2_j3oXTtc4KbePI4jvSdyA
+
+Thank you!
